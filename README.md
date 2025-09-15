@@ -19,12 +19,12 @@
 - 将光纤一头连接交换机的`uplink口`，一头连接电脑的`网口`
 - 将电脑连接的网口的ip改为与摄像头`同一网段`的IP地址，摄像头的IP地址为192.168.1.123，改为`192.168.1.x`![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/37615f4131fd4ee28cd6c594c93d9f30.png#pic_center)
 - 去浏览器访问`192.168.1.123`，安装他要下载的`插件`
-- ![image-20250915100330297](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250915100330297.png)
-- 安装完毕，再次访问，还是进不去，打开这个`在Internet explorer模式下加载`（打开浏览器IE模式）![image-20250915100415655](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250915100415655.png)
+- ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/fd486b51acb64be4933275cb7fe04048.png#pic_center)
+- 安装完毕，再次访问，还是进不去，打开这个`在Internet explorer模式下加载`（打开浏览器IE模式）![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d0149b69c5034dc8b8cbd7a6519d1718.png#pic_center)
 
 
 
-- ![image-20250915100508858](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250915100508858.png)
+- ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/244b6ccbc4f646289c3de51473ed38f1.png#pic_center)
 
 
 
@@ -32,14 +32,13 @@
 
 
 
-- 进入登录页面输入账号`admin`和密码`123456`，正常显示即表示连接成功![image-20250915101021566](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250915101021566.png)
+- 进入登录页面输入账号`admin`和密码`123456`，正常显示即表示连接成功![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/3dc7427c826a47babab3604ad6166750.png#pic_center)
 
 
 
 ### 修改摄像头IP地址
 
-- 右上角的配置按钮，进入以太网设置，将IP地址和网关地址还有DNS1修改问对应的IP地址（目的是为与路由器在同一个网段）![image-20250915101546403](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250915101546403.png)
-
+- 右上角的配置按钮，进入以太网设置，将IP地址和网关地址还有DNS1修改问对应的IP地址（目的是为与路由器在同一个网段）![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/990562a4510f4f1488ef97f477788abd.png#pic_center)
 
 
 - 修改电脑IP地址为与摄像头同一个网段，再次访问你刚才修改的摄像头IP地址，如果能进入即时修改成功。
@@ -54,7 +53,7 @@
 
 - 进入流媒体设置，启用RTSP认证
 
-![image-20250915102225465](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250915102225465.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/efdf59c0ba9a4d86af10279ba6bc2123.png#pic_center)
 
 
 
@@ -110,7 +109,7 @@
 
 在用户环境变量（path）去配置你路径下的这三个对应的路径
 
-![image-20250519134142311](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250519134142311.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/ffb6607604a14861be6fcde7e947be45.png#pic_center)
 
 #### 镜像源
 
@@ -247,7 +246,7 @@ conda create -n test python=3.8
 
 会下载，下载完路径再anaconda3路径下的envs文件夹下
 
-![image-20250519140534449](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250519140534449.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/97efeb0ea55e4a54aedbf589cdf31528.png#pic_center)
 
 ##### 切换虚拟环境
 
@@ -282,7 +281,7 @@ conda remove -n 环境名 包名称
 
 ##### 其他命令
 
-![image-20250519173452896](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250519173452896.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/40f7fb99bd8141559cc6f6c15246099f.png#pic_center)
 
 
 
