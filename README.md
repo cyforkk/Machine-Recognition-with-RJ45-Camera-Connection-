@@ -17,7 +17,7 @@
 
 - 将光纤一头连接`摄像头`，一头连接交换机的`poe口`
 - 将光纤一头连接交换机的`uplink口`，一头连接电脑的`网口`
-- 将电脑连接的网口的ip改为与摄像头`同一网段`的IP地址，摄像头的IP地址为192.168.1.123，改为`192.168.1.x`![image-20250915100856233](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250915100856233.png)
+- 将电脑连接的网口的ip改为与摄像头`同一网段`的IP地址，摄像头的IP地址为192.168.1.123，改为`192.168.1.x`![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/37615f4131fd4ee28cd6c594c93d9f30.png#pic_center)
 - 去浏览器访问`192.168.1.123`，安装他要下载的`插件`
 - ![image-20250915100330297](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250915100330297.png)
 - 安装完毕，再次访问，还是进不去，打开这个`在Internet explorer模式下加载`（打开浏览器IE模式）![image-20250915100415655](C:\Users\11390\AppData\Roaming\Typora\typora-user-images\image-20250915100415655.png)
